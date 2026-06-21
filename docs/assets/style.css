@@ -18,6 +18,20 @@ body {
   color: #f0b429;
 }
 
+.btn-spa-gold {
+  background-color: #f0b429;
+  border-color: #f0b429;
+  color: #0d2137;
+  font-weight: 600;
+}
+
+.btn-spa-gold:hover,
+.btn-spa-gold:focus {
+  background-color: #d99e10;
+  border-color: #d99e10;
+  color: #0d2137;
+}
+
 .hero {
   color: #fff;
   min-height: 100vh;
