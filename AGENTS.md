@@ -18,15 +18,15 @@ The site is served via GitHub Pages from the `docs/` folder on the `main` branch
 ## Web Design Guidelines
 
 - Use Bootstrap classes and components as much as possible for layout, spacing, typography, responsive behaviour, and common UI patterns.
-- Create or update `docs/assets/style.css` only for extra styling that Bootstrap cannot express cleanly.
-- Keep custom CSS small, project-specific, and easy to scan.
+- The site uses the **Bootswatch Minty** theme (Bootstrap 5.3.3) loaded from jsDelivr CDN. Do not swap the theme CDN link without being asked.
+- `docs/assets/style.css` is intentionally empty. Only add to it for styling that Bootstrap utility classes cannot express cleanly; keep any additions minimal.
 - Avoid duplicating Bootstrap utility classes in custom CSS.
 - Prefer Bootstrap responsive grid and utility classes before adding custom media queries.
 - Keep the visual style restrained, professional, and suitable for an advisory business.
-- Use the existing colour palette:
-  - navy: `#0d2137`
-  - gold: `#f0b429`
-  - Bootstrap neutrals
+- Current colour usage:
+  - Navbar and footer: `bg-light` (Minty light)
+  - Hero section: `bg-primary text-white` (Minty primary green)
+  - Accent / icons / CTA button: `text-warning` / `btn-warning`
 - Avoid decorative clutter, gradients, and unnecessary visual effects.
 
 ## Content Guidelines
