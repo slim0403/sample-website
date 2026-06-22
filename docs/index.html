@@ -3,171 +3,268 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Slim Power Advisory (SPA) | Electrical & Power Consulting</title>
+  <title>Slim Power Advisory — infrastructure investment advisory for Australia's energy networks</title>
+  <meta name="description" content="Slim Power Advisory helps energy network operators make confident, evidence-based infrastructure investment decisions — business cases, AER regulatory submissions, and asset management.">
+
   <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/minty/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </head>
-<body style="padding-top: 56px;">
+<body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light border-bottom">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="#">
+      <a class="navbar-brand" href="#top">
         <i class="bi bi-lightning-charge-fill me-2"></i>Slim Power Advisory
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
           <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#advisor">Advisor</a></li>
+          <li class="nav-item ms-lg-3"><a class="btn btn-amber py-2 px-3" href="#contact">Get in touch</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Hero -->
-  <section class="bg-primary text-white min-vh-100 d-flex align-items-center">
-    <div class="container text-center">
-      <h1 class="display-3 fw-bold mb-3">Slim Power Advisory <span class="fs-3 fw-normal">(SPA)</span></h1>
-      <p class="lead fs-4 mb-4">Relax, you are in a safe pair of hands</p>
-      <p class="fs-6 text-uppercase fw-semibold mb-2 text-warning">Our Mission</p>
-      <p class="fs-5 mb-4 mx-auto">SPA gives you confidence in your infrastructure investment by bringing clarity and robustness to infrastructure investment decision making. We are a trusted advisor in the energy industry, in particular electricity networks, with our techncial, regulatory, commerical and story telling expertise.
-      <p class="fs-5 mb-4">Get in touch with us on how we can assist you.</p>
-      <a href="mailto:slim@slimpoweradvisory.com.au" class="btn btn-warning btn-lg">
-        <i class="bi bi-envelope-fill me-2"></i>slim@slimpoweradvisory.com.au
-      </a>
+  <header id="top" class="hero d-flex align-items-center" style="min-height: 100vh; padding-top: 56px;">
+    <svg class="hero-curve" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <!-- faint baseline grid -->
+      <path class="grid" d="M0,150 H1200 M0,300 H1200 M0,450 H1200"/>
+      <!-- daily demand curve: overnight trough, morning ramp, evening peak -->
+      <path class="trace" d="M-20,470 C 120,465 200,455 300,420 C 380,392 430,360 520,355 C 600,351 640,378 720,360 C 800,342 840,250 920,180 C 980,128 1040,120 1120,150 C 1160,165 1200,180 1240,178"/>
+      <!-- evening peak marker -->
+      <circle class="peak" cx="920" cy="180" r="6"/>
+      <text class="peak-label" x="920" y="158" text-anchor="middle">evening peak</text>
+    </svg>
+
+    <div class="container hero-content">
+      <div class="row">
+        <div class="col-lg-9 col-xl-8">
+          <p class="eyebrow on-dark mb-3">Energy infrastructure investment advisory</p>
+          <h1 class="display-3 mb-4">A safe pair of hands for high&#8209;stakes infrastructure decisions.</h1>
+          <p class="lead fs-4 mb-4" style="max-width: 40rem;">
+            Slim Power Advisory brings clarity and rigour to the decisions behind Australia's
+            electricity networks — so your capital goes where the evidence points.
+          </p>
+          <a href="#contact" class="btn btn-amber btn-lg me-2">
+            <i class="bi bi-envelope-fill me-2"></i>Start a conversation
+          </a>
+          <a href="#services" class="btn btn-outline-light btn-lg">See how we help</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Approach / mission -->
+  <section class="section">
+    <div class="container">
+      <div class="row align-items-start g-5">
+        <div class="col-lg-5">
+          <p class="eyebrow mb-3">Why SPA</p>
+          <h2 class="h1 mb-0">Confidence in every dollar of your infrastructure investment.</h2>
+        </div>
+        <div class="col-lg-7">
+          <p class="fs-5 mb-4">
+            Infrastructure decisions are hard to reverse and easy to second-guess. SPA
+            combines technical, regulatory, and commercial judgement to turn a complex
+            need into a business case your board can stand behind.
+          </p>
+          <p class="fs-5 mb-0 text-muted">
+            We work as a trusted advisor across the energy industry, with deep experience in
+            electricity transmission and distribution networks — pairing the engineering
+            detail with the story that gets investment approved.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Services -->
-  <section id="services" class="py-5">
+  <section id="services" class="section section--mist">
     <div class="container">
-      <h2 class="text-center mb-5">Our Services</h2>
+      <div class="section-head mb-5">
+        <p class="eyebrow mb-3">What we do</p>
+        <h2 class="h1 mb-0">Five ways we help you invest with confidence.</h2>
+      </div>
+
       <div class="row g-4">
         <div class="col-md-6 col-lg-4">
-          <div class="card h-100 border-0 shadow-sm p-4">
-            <div class="card-body">
-              <i class="bi bi-clipboard-data display-4 mb-3 text-primary"></i>
-              <h5 class="card-title fw-bold">Business Cases</h5>
-              <p class="card-text text-muted">SPA can assist you to make an informed infrastructure investment decision, underpinned by a robust business case, including:</p>
-              <ul class="text-muted">
-                <li>Bringing clarity to the need case/business issue</li>
-                <li>Identifying options to address the need case</li>
-                <li>Developing robust, evidence-based cost benefit analysis of the options to determine the recommended option</li>
-                <li>Crafting well justified business case narrative to inform decision making and facilitate Executive/Board approval</li>
-              </ul>
-            </div>
+          <div class="svc">
+            <div class="svc-icon"><i class="bi bi-clipboard-data"></i></div>
+            <h3>Business cases</h3>
+            <p class="text-muted mb-3">A robust, evidence-based case for the investment decision in front of you. We:</p>
+            <ul class="text-muted">
+              <li>Bring clarity to the need case and the business issue behind it</li>
+              <li>Identify the options that genuinely address it</li>
+              <li>Build evidence-based cost–benefit analysis to find the recommended option</li>
+              <li>Craft the narrative that earns executive and board approval</li>
+            </ul>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-4">
-          <div class="card h-100 border-0 shadow-sm p-4">
-            <div class="card-body">
-              <i class="bi bi-file-earmark-text display-4 mb-3 text-primary"></i>
-              <h5 class="card-title fw-bold">Regulatory Submissions to the Australian Energy Regulator (AER)</h5>
-              <p class="card-text text-muted">SPA can assist you with preparing well justified regulatory submissions and documents based on a deep understanding and extensive experiences with the Australian electricity regulatory framework. This includes:
-              <ul class="text-muted">
-                <li>Revenue proposals that demonstrate prudent and efficient investments, leveraging experiences with electricity transmission and distribution revenue proposals</li>
-                <li>Regulatory investment tests (RITs)</li>
-                <li>Regulatory reporting (i.e. regulatory information order)</li>
-              </ul>
-            </div>
+          <div class="svc">
+            <div class="svc-icon"><i class="bi bi-file-earmark-text"></i></div>
+            <h3>Regulatory submissions to the AER</h3>
+            <p class="text-muted mb-3">Well-justified submissions grounded in the Australian electricity regulatory framework, including:</p>
+            <ul class="text-muted">
+              <li>Revenue proposals that demonstrate prudent, efficient investment across transmission and distribution</li>
+              <li>Regulatory investment tests (RITs)</li>
+              <li>Regulatory reporting and information orders</li>
+            </ul>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-4">
-          <div class="card h-100 border-0 shadow-sm p-4">
-            <div class="card-body">
-              <i class="bi bi-tools display-4 mb-3 text-primary"></i>
-              <h5 class="card-title fw-bold">Asset Management</h5>
-              <p class="card-text text-muted">SPA can assist you with developing or reviewing asset management strategies and plans that consider the asset whole lifecycle, including:</p>
-              <ul class="text-muted">
-                <li>Identifying asset issues/pain points based on data analysis</li>
-                <li>Developing options to address these asset issues</li>
-                <li>Developing robust, evidence-based cost benefit analysis of the options to determine the most efficient whole of asset lifecycle option</li>
-                <li>Developing an asset management plan that aligns with the asset management strategy</li>
-              </ul>
-            </div>
+          <div class="svc">
+            <div class="svc-icon"><i class="bi bi-tools"></i></div>
+            <h3>Asset management</h3>
+            <p class="text-muted mb-3">Strategies and plans that consider the whole asset lifecycle. We:</p>
+            <ul class="text-muted">
+              <li>Identify asset issues and pain points through data analysis</li>
+              <li>Develop the options that address them</li>
+              <li>Compare options on whole-of-lifecycle cost and benefit</li>
+              <li>Produce a plan aligned with your asset management strategy</li>
+            </ul>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-4">
-          <div class="card h-100 border-0 shadow-sm p-4">
-            <div class="card-body">
-              <i class="bi bi-signpost-split display-4 mb-3 text-primary"></i>
-              <h5 class="card-title fw-bold">Strategy for Infrastructure Assets</h5>
-              <p class="card-text text-muted">SPA can assist you with developing infrastructure strategy and plans to achieve your business objectives, including:</p>
-              <ul class="text-muted">
-                <li>Articulating current state</li>
-                <li>Envisioning future state</li>
-                <li>Gap analysis of current state and future state</li>
-                <li>Developing roadmap from current state to future state</li>
-              </ul>
-            </div>
+          <div class="svc">
+            <div class="svc-icon"><i class="bi bi-signpost-split"></i></div>
+            <h3>Infrastructure strategy</h3>
+            <p class="text-muted mb-3">A clear path from where your assets are to where your business needs them. We:</p>
+            <ul class="text-muted">
+              <li>Articulate the current state honestly</li>
+              <li>Set out a future state worth reaching</li>
+              <li>Run the gap analysis between the two</li>
+              <li>Build the roadmap to close it</li>
+            </ul>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-4">
-          <div class="card h-100 border-0 shadow-sm p-4">
-            <div class="card-body">
-              <i class="bi bi-diagram-3 display-4 mb-3 text-primary"></i>
-              <h5 class="card-title fw-bold">Project Management</h5>
-              <p class="card-text text-muted">SPA can assist you with managing your challenging project that requires close management of multiple stakeholders and deadlines with competing priorities and non-negotiable deadline such as the revenue proposals to the AER.
-            </div>
+          <div class="svc">
+            <div class="svc-icon"><i class="bi bi-diagram-3"></i></div>
+            <h3>Project management</h3>
+            <p class="text-muted mb-0">
+              Hands-on management of the projects where stakeholders are many, priorities
+              compete, and the deadline doesn't move — such as a revenue proposal to the AER.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 d-flex">
+          <div class="svc d-flex flex-column justify-content-center" style="background: var(--spa-ink); border-color: var(--spa-ink);">
+            <h3 style="color:#fff;">Not sure where to start?</h3>
+            <p style="color:#B7C7C9;" class="mb-3">Tell us the decision you're facing. We'll tell you how we'd approach it.</p>
+            <a href="#contact" class="btn btn-amber align-self-start">Get in touch</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Team -->
-  <section id="team" class="py-5">
+  <!-- Advisor -->
+  <section id="advisor" class="section">
     <div class="container">
-      <h2 class="text-center mb-5">Our Team</h2>
-      <div class="row g-4 justify-content-center">
-        <div class="col-md-10 col-lg-8">
-          <div class="card border-0 shadow-sm p-4">
-            <img src="assets/sarah-lim.png" alt="Sarah Lim" class="rounded-circle mx-auto mb-3 d-block" style="width:150px;height:150px;object-fit:cover;">
-            <div class="text-center">
-              <h5 class="fw-bold">Sarah Lim</h5>
-              <p class="text-muted mb-2">Energy infrastructure leader | Chartered Electrical Engineer</p>
-              <p class="mb-2">Business cases | Regulation | Asset management</p>
-              <p class="text-muted mb-4">Driving strategic commercially sound investments in Australia's energy transition</p>
+      <div class="section-head mb-5">
+        <p class="eyebrow mb-3">Who you work with</p>
+        <h2 class="h1 mb-0">Sarah Lim</h2>
+      </div>
+
+      <div class="profile">
+        <div class="row g-0">
+          <div class="col-lg-4">
+            <img src="assets/sarah-lim.png" alt="Sarah Lim" class="profile-photo">
+          </div>
+          <div class="col-lg-5">
+            <div class="p-4 p-lg-5">
+              <p class="eyebrow mb-2">Chartered electrical engineer</p>
+              <h3 class="h4 mb-3">Energy infrastructure leader</h3>
+              <p>
+                Sarah integrates technical and regulatory expertise with commercial acumen to
+                deliver lasting impact for Australia's energy transition.
+              </p>
+              <p class="mb-4">
+                She helps infrastructure organisations make confident, data-driven investment
+                decisions — strategic, commercially sound, and aligned with the needs of
+                Australia's networks.
+              </p>
+              <a href="https://www.linkedin.com/in/sarah-hl-lim/" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin me-2"></i>View LinkedIn profile
+              </a>
             </div>
-            <p class="text-muted">Sarah integrates technical and regulatory framework expertise with commercial acumen to deliver lasting positive impact for Australia's energy transition.</p>
-            <p class="text-muted">She helps infrastructure organisations make confident, data-driven investment decisions that are strategic, commercially sound, and aligned with the needs of Aus[...]
-            <a href="https://www.linkedin.com/in/sarah-hl-lim/" class="btn btn-outline-primary align-self-center" target="_blank" rel="noopener noreferrer">
-              <i class="bi bi-linkedin me-2"></i>View LinkedIn Profile
-            </a>
+          </div>
+          <div class="col-lg-3 profile-side">
+            <div class="p-4 p-lg-5 h-100 d-flex flex-column justify-content-center">
+              <p class="eyebrow on-dark mb-4">Focus areas</p>
+              <div class="cred"><i class="bi bi-clipboard-data"></i><span>Business cases</span></div>
+              <div class="cred"><i class="bi bi-file-earmark-text"></i><span>Regulation</span></div>
+              <div class="cred"><i class="bi bi-tools"></i><span>Asset management</span></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer / Contact -->
-  <footer id="contact" class="py-5 bg-light border-top">
+  <!-- Contact CTA -->
+  <section id="contact" class="section section--mist">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-8">
+          <p class="eyebrow mb-3">Get in touch</p>
+          <h2 class="display-5 mb-3">Tell us the decision you're facing.</h2>
+          <p class="fs-5 text-muted mb-4">
+            Whether it's a business case, an AER submission, or an asset strategy — we'll
+            help you make the call with confidence.
+          </p>
+          <a href="mailto:slim@slimpoweradvisory.com.au" class="btn btn-amber btn-lg">
+            <i class="bi bi-envelope-fill me-2"></i>slim@slimpoweradvisory.com.au
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
     <div class="container">
       <div class="row g-4">
         <div class="col-md-6">
-          <h5 class="fw-bold mb-3"><i class="bi bi-lightning-charge-fill me-2"></i>Slim Power Advisory (SPA)</h5>
-          <p class="mb-0"><i class="bi bi-envelope me-2"></i><a href="mailto:slim@slimpoweradvisory.com.au" class="text-decoration-none">slim@slimpoweradvisory.com.au</a></p>
+          <h5 class="mb-3"><i class="bi bi-lightning-charge-fill me-2"></i>Slim Power Advisory</h5>
+          <p class="mb-0" style="max-width: 24rem;">
+            Infrastructure investment advisory for Australia's energy networks.
+          </p>
         </div>
-        <div class="col-md-3">
-          <h6 class="fw-bold mb-3">Quick Links</h6>
-          <ul class="list-unstyled">
-            <li class="mb-2"><a href="#services" class="text-decoration-none">Services</a></li>
-            <li class="mb-2"><a href="#team" class="text-decoration-none">Team</a></li>
+        <div class="col-6 col-md-3">
+          <h6 class="mb-3">Explore</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#services">Services</a></li>
+            <li class="mb-2"><a href="#advisor">Advisor</a></li>
+            <li class="mb-2"><a href="#contact">Contact</a></li>
           </ul>
         </div>
-        <div class="col-md-3">
-          <h6 class="fw-bold mb-3">Follow Us</h6>
-          <div>
-            <a href="https://www.linkedin.com/in/sarah-hl-lim/" class="me-3 fs-5" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
-          </div>
+        <div class="col-6 col-md-3">
+          <h6 class="mb-3">Connect</h6>
+          <p class="mb-2">
+            <a href="mailto:slim@slimpoweradvisory.com.au"><i class="bi bi-envelope me-2"></i>Email</a>
+          </p>
+          <p class="mb-0">
+            <a href="https://www.linkedin.com/in/sarah-hl-lim/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin me-2"></i>LinkedIn</a>
+          </p>
         </div>
       </div>
-      <hr class="my-4 opacity-25">
-      <p class="text-center mb-0 text-muted">&copy; 2026 Slim Power Advisory (SPA). All rights reserved.</p>
+      <hr class="my-4" style="border-color: rgba(255,255,255,.12);">
+      <p class="text-center mb-0 small" style="color:#7E9092;">&copy; 2026 Slim Power Advisory. All rights reserved.</p>
     </div>
   </footer>
 
