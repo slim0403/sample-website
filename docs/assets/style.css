@@ -44,12 +44,12 @@
     /* ---- Hero ---- */
     .hero {
       position: relative;
-      background: var(--bs-primary);
-      color: var(--spa-ink);
+      background: var(--spa-ink);
+      color: #EAF1F1;
       overflow: hidden;
     }
-    .hero h1 { color: var(--spa-ink); }
-    .hero .lead { color: rgba(11,31,42,.82); }
+    .hero h1 { color: #fff; }
+    .hero .lead { color: rgba(234,241,241,.9); }
     .hero-curve {
       position: absolute;
       inset: 0;
@@ -76,7 +76,7 @@
       animation: pop .5s ease 2.6s forwards;
     }
     .hero-curve .peak-label {
-      fill: rgba(11,31,42,.72);
+      fill: rgba(234,241,241,.88);
       font: 500 13px sans-serif;
       opacity: 0;
       animation: pop .5s ease 2.8s forwards;
@@ -103,8 +103,8 @@
 
     /* Secondary hero button keeps a quiet dark outline and picks up the amber accent on hover */
     .hero .btn-outline-light {
-      border-color: rgba(11,31,42,.35);
-      color: var(--spa-ink);
+      border-color: rgba(234,241,241,.6);
+      color: #EAF1F1;
       padding: .8rem 1.5rem;
       border-radius: .5rem;
       transition: background-color .15s ease, border-color .15s ease, color .15s ease;
