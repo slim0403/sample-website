@@ -152,13 +152,13 @@
       overflow: hidden;
     }
     .profile-photo {
-      width: min(100%, 260px);
+      width: min(100%, 320px);
       aspect-ratio: 1;
       height: auto;
       object-fit: cover;
       border-radius: 50%;
       display: block;
-      background: var(--spa-mist);
+      /* background: var(--spa-mist); */
       border: 1px solid var(--spa-line);
     }
     .profile-side { background: var(--spa-ink); }
